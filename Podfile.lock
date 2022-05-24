@@ -1,0 +1,27 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - PhoneNumberKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.4)
+    - PhoneNumberKit/UIKit (= 3.3.4)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.4)
+  - PhoneNumberKit/UIKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore
+
+DEPENDENCIES:
+  - FMDB
+  - PhoneNumberKit (~> 3.3)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - PhoneNumberKit
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
+
+PODFILE CHECKSUM: 140461117c043cdb35dbff00c65cd7e0d193fcd9
+
+COCOAPODS: 1.11.3
